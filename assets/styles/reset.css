@@ -120,6 +120,8 @@ h5 {
 }
 h6 {
     font-size: var(--font-size-sm);
+    color: #FF1C86;
+    text-shadow: 0 0 10px #f7b3d3;
 
 }
 h7 {
