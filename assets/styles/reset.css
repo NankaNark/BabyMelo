@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+em,
+img,
+strong,
+ol,
+ul,
+li,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    color: inherit;
+    font-family: 'PressStart2P';
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    outline: none;
+    font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+:root {
+    --color-f: #ffffff;
+    --color-2: #222222;
+
+    --font-size-xs: 1.25rem;
+    /* 1.25rem 20px */
+    --font-size-sm: 1.875rem;
+    /* 1.875rem 30px */
+    --font-size-base: 2.25rem;
+    /* 2.25rem 36px */
+    --font-size-md: 2.5rem;
+    /* 2.5rem 40px */
+    --font-size-lg: 3.125rem;
+    /* 3.125rem 50px */
+    --font-size-xl: 3.375rem;
+    /* 3375rem 55px */
+    --font-size-xxl: 5rem;
+    /* 5rem 80px */
+}
+
+h1 {
+    font-size: var(--font-size-xxl);
+    color: #FF1C86;
+}
+h2 {
+    font-size: var(--font-size-xl);
+    color: #FF1C86;
+}
+h3 {
+    font-size: var(--font-size-lg);
+    color: #7ebac4;
+    text-shadow: 0 0 10px #AFF4FF;
+}
+h4 {
+    font-size: var(--font-size-md);
+}
+h5 {
+    font-size: var(--font-size-base);
+    color: #95c78b;
+    text-shadow: 0 0 10px #BCFFAF;
+}
+h6 {
+    font-size: var(--font-size-sm);
+
+}
+h7 {
+    font-size: var(--font-size-xs);
+    color: #FF1C86;
+    text-shadow: 0 0 10px #ff7dba;
+}
